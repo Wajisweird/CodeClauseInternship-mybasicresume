@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: beige;
+}
+
+#myname {
+  padding-left: 44rem;
+}
+
+#pic {
+  height: 13rem;
+  width: 13rem;
+  border-radius: 50%;
+  border: 6px solid beige;
+  position: absolute;
+  margin-left: 4rem;
+  margin-top: 8rem;
+  background: url("/src/dp.jpeg") no-repeat center/cover;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+p {
+  padding-left: 23rem;
+}
+
+h5 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-right: 18rem;
+}
+
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#third {
+  position: absolute;
+  margin-left: 33rem;
+  height: 20rem;
+  width: 40rem;
+}
+
+#fourth {
+  position: absolute;
+  margin-left: 33rem;
+  margin-top: 26rem;
+  height: 25rem;
+  width: 40rem;
+}
+
+.links {
+  color: rgb(77, 121, 240);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
